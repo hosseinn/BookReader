@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" tools:context=".SurveyActivity">
+    <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/scroll"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="vertical"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content">
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/how_do_you_rate"
+            android:id="@+id/ratingText" android:layout_gravity="center_horizontal" android:textSize="20sp"/>
+    <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingBar" android:layout_gravity="center_horizontal" android:stepSize="1"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/location"
+            android:id="@+id/locationText" android:textSize="20sp"/>
+            <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/newLocation" android:layout_gravity="center_horizontal" android:inputType="text"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/previous_locations"
+            android:id="@+id/previousLocationText" android:textSize="20sp"/>
+    <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:id="@+id/previousLocation" android:layout_gravity="center_horizontal" android:clickable="false"
+            android:choiceMode="singleChoice" android:drawSelectorOnTop="false" android:isScrollContainer="false"
+            android:keepScreenOn="false" android:alwaysDrawnWithCache="false"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3" android:textSize="20sp"
+            android:text="@string/gender"/>
+            <RadioGroup
+                    android:id="@+id/radioGender"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" android:checkedButton="@+id/radioButton"
+                    >
+    <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="زن"
+            android:id="@+id/radioButton" android:checked="false"/>
+    <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="مرد"
+            android:id="@+id/radioButton2"/>
+            </RadioGroup>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/primary_bad"
+            android:id="@+id/textView4" android:layout_gravity="center_horizontal" android:textSize="20sp"
+            android:visibility="invisible"/>
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/finish"
+                    android:id="@+id/finishSurveyButton" android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

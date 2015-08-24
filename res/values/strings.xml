@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BookReader</string>
+    <string name="app_description">Book Reader</string>
+    <string name="how_do_you_rate">How do you rate this application?</string>
+    <string name="next_page">Next page</string>
+    <string name="previous_page">Previous page</string>
+    <string name="introduction">Introducing eBook Reader</string>
+    <string name="introduction_description">This is an eBook reader, used for testing purposes. In this application, you
+        can read some books; You will face simulated delay, as a placeholder for network delays. In the end, you will be
+        asked to tell your opinion about the app.</string>
+    <string name="survey">Your opinion about this app</string>
+    <string name="previous_locations">You can choose from previous locations:</string>
+    <string name="location">What is your location?</string>
+    <string name="primary_good">What is the primary <b>good thing</b> about this app?</string>
+    <string name="primary_bad">What is the primary <b>bad thing</b> about this app?</string>
+    <string name="continue_app">Continue...</string>
+    <string name="homeLocation">Home</string>
+    <string name="workLocation">Work</string>
+    <string name="carLocation">Car</string>
+    <string name="metroLocation">Metro</string>
+    <string name="busLocation">Bus</string>
+    <string name="finish">Finish</string>
+    <string name="change_language">تغییر زبان</string>
+    <string name="gender">What is your gender?</string>
+</resources>

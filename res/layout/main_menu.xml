@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_marginLeft="20dp"
+            android:layout_alignParentTop="true" android:layout_marginTop="20dp" android:gravity="fill"
+              android:weightSum="1" tools:context=".MainActivity">
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_description"
+            android:id="@+id/textView" android:layout_gravity="center_horizontal"
+            android:textColor="@color/welcomeText" android:textSize="35dp" android:padding="10dp"
+            android:gravity="center_vertical|center_horizontal"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/opinionLayout">
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView" android:src="@drawable/ic_launcher" android:layout_gravity="bottom"/>
+        <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/white" android:minHeight="10dp" android:id="@+id/spacer" android:clickable="false"
+                android:minWidth="10dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/survey"
+                android:id="@+id/message" android:layout_weight="0.08"
+                android:textColor="@color/messageText" android:textSize="30dp" android:layout_gravity="bottom|center_horizontal"/>
+    </LinearLayout>
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/listView" android:layout_gravity="center_horizontal" android:choiceMode="singleChoice"/>
+</LinearLayout>
+

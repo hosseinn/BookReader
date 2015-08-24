@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" tools:context=".IntroductionActivity" android:id="@+id/mainLayout">
+    <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/scroll"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="vertical"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/introduction"
+            android:id="@+id/textView7" android:layout_gravity="center_horizontal" android:textSize="30dp"/>
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="159dp"
+            android:id="@+id/imageView2" android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_launcher" android:padding="10dp"/>
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/change_language"
+                    android:id="@+id/changeLanguageButton" android:layout_gravity="center_horizontal"
+                    android:visibility="gone"/>
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/introduction_description"
+            android:id="@+id/textView8" android:textSize="24dp" android:singleLine="false" android:padding="10dp"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/continue_app"
+            android:id="@+id/finishIntroButton" android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

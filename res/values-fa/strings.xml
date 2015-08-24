@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">کتاب‌خوان</string>
+    <string name="app_description">کتاب‌خوان</string>
+    <string name="how_do_you_rate">چگونه به این نرم‌افزار نمره می‌دهید؟</string>
+    <string name="next_page">صفحه بعد</string>
+    <string name="previous_page">صفحه قبل</string>
+    <string name="introduction">معرفی نرم‌افزار کتاب‌خوان</string>
+    <string name="introduction_description">این یک نرم‌افزار کتاب‌خوان است که برای آزمون کیفیت مورد استفاده قرار
+        می‌گیرد. در این نرم‌افزار، شما می‌توانید صفحاتی از یک کتاب را مطالعه کنید. در این نرم‌افزار، با تأخیرهای
+        شبیه‌سازی شده مواجه می‌شوید که به عنوان جایگزینی برای تأخیرهای شبکه شبیه‌سازی می‌شوند. در نهایت، نظر شما درباره
+        نرم‌افزار پرسیده می‌شود.</string>
+    <string name="survey">نظر شما درباره این برنامه چیست؟</string>
+    <string name="continue_app">ادامه...</string>
+    <string name="location">کجا هستید؟</string>
+    <string name="previous_locations">می‌توانید از مکان‌های قبلی انتخاب کنید:</string>
+    <string name="primary_bad">مهم‌ترین ویژگی مثبت این نرم‌افزار چیست؟</string>
+    <string name="primary_good">مهم‌ترین ویژگی منفی این نرم‌افزار چیست؟</string>
+    <string name="busLocation">اتوبوس</string>
+    <string name="carLocation">ماشین</string>
+    <string name="homeLocation">خانه</string>
+    <string name="metroLocation">مترو</string>
+    <string name="workLocation">محیط کار</string>
+    <string name="finish">تکمیل</string>
+    <string name="change_language">Change Language</string>
+    <string name="gender">جنسیت شما چیست؟</string>
+</resources>
